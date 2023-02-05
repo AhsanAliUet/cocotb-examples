@@ -1,5 +1,5 @@
 # Cocotb Examples
-To use them, change variables inside Makefile according to the name of the module. For example, if you want to test mux_2x1.sv module, you must change variable ```TOPLEVEL = mux_2x1``` and ```MODULE = test_mux_2x1``` which is simply name of the python testbench file.  
+To use them, change variables inside Makefile according to the name of the module. For example, if you want to test mux_2x1.sv module, you must change variable ```TOPLEVEL=mux_2x1``` and ```MODULE=test_mux_2x1``` which is simply name of the python testbench file.  
 
 You must have cocotb installed for this purpose. In Ubuntu/WSL/PowerShell of Windows, write ```pip install cocotb```. It will install cocotb for you. Also, you must have installed ```make``` command for windows. It is not a problem if you are using Ubuntu/macOS/Unix based operating systems.   
 
